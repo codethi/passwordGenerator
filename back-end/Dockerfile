@@ -4,7 +4,7 @@ WORKDIR /src/usr/
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 5001
 
 RUN npm i
 RUN npm run build
